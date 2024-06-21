@@ -69,7 +69,8 @@ export async function POST(req: Request) {
       lastName: last_name,
       photo: image_url,
     };
-
+    console.log("sdbjvkvbasjvbkadvfkakbefjaksfbjksabk11111111111111111111111111111111111111");
+    console.log(user);
     const newUser = await createUser(user);
 
     // Set public metadata
